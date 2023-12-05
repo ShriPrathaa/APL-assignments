@@ -1,0 +1,8 @@
+.circuit
+V3 2 1 dc 10  #circuit where current across voltage sources can't be computed 
+V1 3 2 dc -7
+V2 1 3 dc -3
+R1 2 GND 2
+R2  GND 3  1
+R3  1 GND  3
+.end
